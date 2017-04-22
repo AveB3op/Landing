@@ -1,0 +1,27 @@
+@media only screen and (max-width : 992px) {
+  .main-right{
+    height: auto;
+    padding: 20px;
+    flex-flow: row wrap;
+      -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+
+  }
+}
+@media only screen and (max-width : 768px) {
+  .main-section{
+    height: 500px;
+  }
+  .main-left{
+    height: 500px;
+  }
+  .wrap-main{
+    height: 500px;
+  }
+  .main-title{
+    font-size: 28px;
+  }
+  .main-desc{
+    font-size: 18px;
+  }
+}
