@@ -306,7 +306,7 @@ text-align: center;
   width: 100%;
   max-height: 400px;
   height: auto;
-  margin: 20px auto;
+  margin: 5px auto 50px;
 
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.3);
@@ -317,6 +317,37 @@ text-align: center;
   width: 100%;
   max-height: 400px;
   height: auto;
+
+}
+.item-black{
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.owl-nav{
+  margin-bottom: -55px;
+  position: relative;
+  top: -220px;
+}
+.wrap-slider .owl-carousel .owl-nav .owl-prev{
+  margin-right:200px;
+}
+.wrap-slider .owl-carousel .owl-nav .owl-next{
+  margin-left:200px;
+}
+.wrap-slider .owl-carousel .owl-nav .owl-prev,
+.wrap-slider .owl-carousel .owl-nav .owl-next{
+  background-color: rgba(48, 35, 85, 0.35);
+  height: 50px;
+  width: 50px;
+}
+.wrap-slider .owl-carousel .owl-nav .owl-prev span,
+.wrap-slider .owl-carousel .owl-nav .owl-next span{
+  font-size: 80px;
+  display:inline-block;
+  position: relative;
+  top: -38px;
 
 }
 
@@ -400,6 +431,31 @@ font-size: 28px;
 }
 
 /*=== CONTACTS Section===*/
+.contacts-form{
+  padding: 20px;
+  text-align: center;
+}
+.contacts-input{
+  font-size: 18px;
+  margin: 15px;
+  padding: 2px 6px;
+}
+.service-block{
+  font-size: 18px;
+  padding: 5px;
+  width: 50%;
+  display: inline-block;
+    border: 1px solid;
+    text-align: left;
+  }
+  .checkbox-label{
+    margin: 10px;
+    display: block;
+    font-size: 14px;
+  }
+.contacts-form>.btn{
+  margin: 5px;
+}
 .wrap-map{
   width: 100%;
   height: 450px;
@@ -420,6 +476,44 @@ font-size: 28px;
  margin-right: 5px;
 
 }
+/*=== TECH SECTION ===*/
+.technology>.row{
+  margin: 0;
+}
+.technology>.row>div{
+  margin: 0;
+  padding: 0;
+
+}
+.technology-item{
+  max-width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.technology-text{
+  display: block;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  background:linear-gradient(to right,rgba(85, 147, 128, 1),rgba(64, 135, 113, 0.5),rgba(54, 112, 101, 0.3),rgba(46, 99, 83, 0.02));
+  color: white;
+  font-size: 24px;
+  border: 2px solid;
+  border-right: 0;
+  border-radius: 12px;
+  padding: 5px 15px;
+}
+
+.technology-img{
+width: 100%;
+height: 300px;
+border: 2px solid;
+border-radius: 15px;
+
+}
+/*=== TECH SECTION ===*/
 /*=== FOOTER Section ===*/
 .site-footer{
   background: url(../img/bg/bg_footer.png) repeat scroll center center;

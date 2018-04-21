@@ -7,6 +7,18 @@
         -ms-flex-flow: row wrap;
 
   }
+  .teasers-item{
+    margin: 15px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    }
+    .teasers-item > span{
+      margin-top: 50px;
+    }
+  .teaser{
+    text-align: center;
+  }
 }
 @media only screen and (max-width : 768px) {
   .main-section{

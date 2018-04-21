@@ -5,8 +5,11 @@
   <meta charset="utf-8">
   <title>Качественная оклейка автомобиля пленкой</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
+
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
 </head>
 
@@ -33,16 +36,16 @@
                 <div class="collapse navbar-collapse" id="top-menu">
                   <ul class="nav navbar-nav">
                     <li>
-                      <a href="#services">Услуги<span class="sr-only">(current)</span></a>
+                      <a class="navigation" to="#services" href="#services">Услуги<span class="sr-only">(current)</span></a>
                     </li>
                     <li>
-                      <a href="#works">Наши работы</a>
+                      <a class="navigation" to="#works" href="#works">Наши работы</a>
                     </li>
                     <li>
-                      <a href="#technology">Технологии</a>
+                      <a class="navigation" to="#technology" href="#technology">Технологии</a>
                     </li>
                     <li>
-                      <a href="#contacts">Контакты</a>
+                      <a class="navigation" to="#contacts" href="#contacts">Контакты</a>
                     </li>
                   </ul>
                   <div class="navbar-text navbar-right">
@@ -90,7 +93,7 @@
               <div class="wrap-section-title">
                 <div class="section-title-lines"></div>
                 <div class="section-title-center">
-                  <h2 class="section-title">Услуги</h2>
+                  <h2 id="services" class="section-title">Услуги</h2>
                 </div>
               </div>
             </div>
@@ -150,7 +153,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
                         <div class="row">
                           <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
                             <div class="serv-item-img">
-                              <img src="img/serv/serv2.jpg" alt="Оклейка цветной пленкой">
+                              <img src="http://via.placeholder.com/640x480" alt="Оклейка цветной пленкой">
                             </div>
                           </div>
                           <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
@@ -177,7 +180,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
                         <div class="row">
                           <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
                             <div class="serv-item-img">
-                              <img src="img/serv/serv3.jpg" alt="Оклейка цветной пленкой">
+                              <img src="http://via.placeholder.com/800x600" alt="Оклейка цветной пленкой">
                             </div>
                           </div>
                           <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
@@ -204,7 +207,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
                         <div class="row">
                           <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
                             <div class="serv-item-img">
-                              <img src="img/serv/serv4.jpg" alt="Оклейка цветной пленкой">
+                              <img src="http://via.placeholder.com/900x700" alt="Оклейка цветной пленкой">
                             </div>
                           </div>
                           <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
@@ -231,7 +234,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
                         <div class="row">
                           <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
                             <div class="serv-item-img">
-                              <img src="img/serv/serv5.jpg" alt="Оклейка цветной пленкой">
+                              <img src="http://via.placeholder.com/950x1000" alt="Оклейка цветной пленкой">
                             </div>
                           </div>
                           <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
@@ -265,14 +268,30 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
               <div class="wrap-section-title">
                 <div class="section-title-lines"></div>
                 <div class="section-title-center">
-                  <h2 class="section-title">Наши работы</h2>
+                  <h2 id="works" class="section-title">Наши работы</h2>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<div class="wrap-slider"><img src="http://via.placeholder.com/600x400" alt="example"></div>
+
+<div class="wrap-slider">
+  <div class="owl-carousel owl-theme">
+    <div class="item"><img src="img/slider/first.jpg" alt="Example 4 slide"/></div>
+    <div class="item"><img src="img/slider/second.jpg" alt="Example 4 slide"/></div>
+    <div class="item"><img src="img/slider/third.jpg" alt="Example 4 slide"/></div>
+    <div class="item"><img src="http://via.placeholder.com/600x400" alt="Example 4 slide"/></div>
+    <div class="item"><img src="http://via.placeholder.com/600x400" alt="Example 4 slide"/></div>
+    <div class="item"><img src="http://via.placeholder.com/600x400" alt="Example 4 slide"/></div>
+    <div class="item"><img src="http://via.placeholder.com/600x400" alt="Example 4 slide"/></div>
+    <div class="item item-black"> Your Content Black</div>
+    <div class="item item-black"> Your Content Black</div>
+    <div> Your Content White</div>
+  </div>
+        <!-- <img class="d-block w-100" src="http://via.placeholder.com/600x400" alt="Example first slide"/> -->
+
+</div>
             </div>
           </div>
         </div>
@@ -284,7 +303,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
         <div class="container">
 
           <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 teaser">
               <div class="teasers-item">
                 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
                 <div class="teasers-item-title">
@@ -292,7 +311,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 teaser">
               <div class="teasers-item">
                 <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
                 <div class="teasers-item-title">
@@ -300,7 +319,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 teaser">
               <div class="teasers-item">
                 <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
                 <div class="teasers-item-title">
@@ -308,7 +327,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 teaser">
               <div class="teasers-item">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
                 <div class="teasers-item-title">
@@ -335,7 +354,33 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <div class="wrap-form">
-                contacts form
+                <form class="contacts-form">
+                  <input type="text" class="contacts-input" placeholder="Ваше ФИО" required>
+                  <input type="text" class="contacts-input" placeholder="Название компании">
+                  <br />
+                  <input type="tel" class="contacts-input" placeholder="Контактный телефон" required>
+                  <input type="email" class="contacts-input" placeholder="E-mail" required>
+                  <br />
+                  <span class="service-block">
+                  Выберите услуги в которых вы заинтересованы:
+                  <label class="checkbox-label">
+                    <input type="checkbox" class="contacts-input">
+                      Мойка
+                  </label>
+
+                  <label class="checkbox-label">
+                    <input type="checkbox" class="contacts-input">
+                      Покраска
+                  </label>
+                  <label class="checkbox-label">
+                    <input type="checkbox" class="contacts-input">
+                      Оклейка пленкой
+                  </label>
+                  </span>
+                  <br/>
+                  <button class="btn btn-lg btn-primary" type="submit" name="button"> Оформить заявку </button>
+
+                </form>
               </div>
             </div>
           </div>
@@ -408,14 +453,51 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
               <div class="wrap-section-title">
                 <div class="section-title-lines"></div>
                 <div class="section-title-center">
-                  <h2 class="section-title">Как это происходит</h2>
+                  <h2 id="technology" class="section-title">Как происходит оклейка автомобиля</h2>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
+                  <div class="technology">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="technology-item">
+                      <img class="technology-img" src="http://via.placeholder.com/600x400" alt="Picture1"/>
+                      <span class="technology-text">
+                        1. Lorem ipsum.
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="technology-item">
+                      <img class="technology-img" src="http://via.placeholder.com/800x600" alt="Picture2"/>
+                      <span class="technology-text">
+                        2. Lorem ipsum dolor.
+                      </span>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="technology-item">
+                    <img class="technology-img" src="http://via.placeholder.com/640x480" alt="Picture3"/>
+                    <span class="technology-text">
+                      3. Lorem ipsum.
+                    </span>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="technology-item">
+                    <img class="technology-img" src="http://via.placeholder.com/700x500" alt="Picture4"/>
+                    <span class="technology-text">
+                      4. Lorem ipsum dolor.
+                    </span>
+                  </div>
+                </div>
+                </div>
+                  </div>
             </div>
           </div>
         </div>
@@ -427,7 +509,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
               <div class="wrap-section-title">
                 <div class="section-title-lines"></div>
                 <div class="section-title-center">
-                  <h2 class="section-title">Контакты</h2>
+                  <h2 id="contacts" class="section-title">Контакты</h2>
                 </div>
               </div>
             </div>
@@ -512,9 +594,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quo exp
       </div>
     </footer>
   </div>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="dist/owl.carousel.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="js/scroll.js" charset="utf-8"></script>
+  <script src="js/carousel.js" charset="utf-8"></script>
+
 </body>
 
 </html>
